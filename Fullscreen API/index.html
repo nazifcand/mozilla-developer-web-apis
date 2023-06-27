@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Fullscreen API - Web APIs</title>
+
+  <style>
+    .container {
+      width: 600px;
+      margin: 50px auto;
+    }
+
+    video {
+      width: 100%;
+      aspect-ratio: 16/9;
+      border-radius: 1rem;
+      box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, .35);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <button id="btn">Fullscreen'e gec</button>
+    <hr>
+    <video
+      id="video"
+      src="./video.mp4"
+      controls
+      controlsList="nofullscreen"
+    ></video>
+
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
