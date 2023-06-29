@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Broadcast Channel API - Web APIs</title>
+
+  <style>
+    .dark {
+      --background: #222;
+      --background-light: #777;
+      --text: #fff;
+      --shadow: 1rem 1rem 1rem rgba(255, 255, 255, .25);
+    }
+
+    .light {
+      --background: #fff;
+      --background-light: #eee;
+      --text: #222;
+      --shadow: 1rem 1rem 3rem rgba(0, 0, 0, .15);
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      background-color: var(--background);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    .box {
+      width: 50vw;
+      height: 50vh;
+      border-radius: 1rem;
+      background-color: var(--background-light);
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+    }
+  </style>
+</head>
+
+<body class="light">
+
+  <div class="box">
+    LIGHT
+    <hr>
+
+    <button id="btn">Temayi Degistir</button>
+
+  </div>
+
+  <!-- scripts -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
